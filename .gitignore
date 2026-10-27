@@ -1,0 +1,21 @@
+# 构建产物：发布时把 zip 作为 GitHub Release 附件，不要提交进仓库
+release/
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地临时目录（本仓库开发机上的 pip/Qt 缓存等）
+tmp/
+t2/
+vendor/
+
+# 运行时产物
+debug.log
+st.txt
+*.log
